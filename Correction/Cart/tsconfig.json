@@ -2,7 +2,7 @@
 "compilerOptions": {
     "experimentalDecorators": true, // support expérimental des décorateurs
     "module": "commonjs", // gérer les import et export
-    "target": "esnext", 
+    "target": "ES6", 
     "outDir": "build", // dossier des fichiers buildés
     "rootDir": "src", // dossier des fichiers ts
     "alwaysStrict" : true,

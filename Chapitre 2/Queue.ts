@@ -8,7 +8,9 @@ class Queue<T> {
     }
     //Remove an item from the beginning of an array
     pop(){
-        return this.arrayQueue.shift();
+        if(this.arrayQueue)
+            return this.arrayQueue.shift();
+        throw "empty queue";
     }
 
     tab(): Array<T>{
